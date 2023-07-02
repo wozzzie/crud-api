@@ -21,7 +21,8 @@
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": ["error"],
     "import/extensions": "off",
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "quotes": ["error", "double"]
   },
   "ignorePatterns": ["*.js", "*.cjs"]
 }
