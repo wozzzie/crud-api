@@ -32,7 +32,6 @@ const handleCreateUser = (req: IncomingMessage, res: ServerResponse) => {
       };
 
       users.push(newUser);
-      console.log(users);
       sendResponse(res, 201, newUser);
     } catch (error) {
       sendResponse(res, 400, { message: "Invalid request body" });
